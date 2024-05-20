@@ -5,6 +5,10 @@ public class Demo{
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your name");
         String name=sc.next();
-        System.out.println(name);
+        new Demo().printName(name);
     }
+
+	void printName(String name){
+		System.out.println(name);
+	}
 }
