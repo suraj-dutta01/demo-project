@@ -14,7 +14,4 @@ public class Demo{
 	void printName(String name){
 		System.out.println(name);
 	}
-    void printCourse(String course){
-		System.out.println(course);
-	}
 }
