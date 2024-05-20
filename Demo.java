@@ -11,4 +11,8 @@ public class Demo{
 	void printName(String name){
 		System.out.println(name);
 	}
+
+    public void  display(){
+        System.out.println("Project Workshop");
+    }
 }
